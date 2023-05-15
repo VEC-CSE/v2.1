@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           Video Lectures
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="/css/general.css">
+        <link rel="stylesheet" href="/css/video-header.css">
+        <link rel="stylesheet" href="/css/video-ejs.css">
+        <link rel="stylesheet" href="/css/sidebar.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Permanent+Marker&family=Roboto+Slab:wght@500;700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        
+        <div class="header">
+            <div class="left-section">
+                <div>
+                    <img class="youtube-logo" src="/css/icons/velammal.png">
+                </div>
+            </div>
+            <div class="middle-section">
+           
+               <div>
+                <p class="title-heading">Video Lecture</p>
+               </div>
+               
+            </div>
+            <div class="right-section">
+               <a href="/home"><p  class="Home-button">HOME</p></a> 
+               <a href="/profile"><p  class="Home-button">PROFILE</p></a> 
+            </div>
+            
+        </div>
+        <!-- <div class="side-bar" style="right:0px">
+           
+        </div>
+        <div class="side-bar-left">
+            
+        </div> -->
+       
+        
+        <div class="video-grid">
+            <div class = "video-preview">
+                <div class = "thumbnail-margin">
+                    <iframe class="the-video" width="800" height="500" src="<%= link %>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class = "video-info-grid">
+
+                        <p class = "the-video-title">
+                            <%= description %>
+                        </p>
+            
+                    
+                </div>
+             </div></div>
+             
+             <!-- <div class="bottom-border">
+
+             </div> -->
+        
+
+    </body>
+</html>
